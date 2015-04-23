@@ -891,14 +891,13 @@ int  sl_uriPlayer_create(char *uri)
 
 	// CreateAudioPlayer and specify SL_IID_ANDROIDCONFIGURATION
 	// in the required interface ID array. Do not realize player yet.
-    /*
+    
     SLAndroidConfigurationItf uriPlayerConfig;
 	SLint32 streamType = SL_ANDROID_STREAM_MEDIA;
 	result = (*uriPlayerObject)->GetInterface(uriPlayerObject, SL_IID_ANDROIDCONFIGURATION, &uriPlayerConfig);
 	assert(SL_RESULT_SUCCESS == result);
 	result = (*uriPlayerConfig)->SetConfiguration(uriPlayerConfig, SL_ANDROID_KEY_STREAM_TYPE, &streamType, sizeof(SLint32));
 	assert(SL_RESULT_SUCCESS == result);
-	*/
 
 
     // realize the player
